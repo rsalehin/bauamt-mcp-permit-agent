@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "bauamt-permit-agent": {
+      "command": "C:\\Users\\rsalehin\\OneDrive\\Desktop\\Projects\\bauamt-mcp-permit-agent\\.venv\\Scripts\\python.exe",
+      "args": [
+        "-m",
+        "src.bauamt_mcp.server"
+      ],
+      "env": {
+        "DATABASE_PATH": "C:\\Users\\rsalehin\\OneDrive\\Desktop\\Projects\\bauamt-mcp-permit-agent\\data\\bauamt_permits.db",
+        "PYTHONPATH": "C:\\Users\\rsalehin\\OneDrive\\Desktop\\Projects\\bauamt-mcp-permit-agent"
+      }
+    }
+  }
+}
